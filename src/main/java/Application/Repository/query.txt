@@ -1,0 +1,21 @@
+
+    /**
+     * TODO: Retrieve all pets by their species.
+     * @param species
+     */
+    List<Pet> lab1(String species);
+
+    /**
+     * TODO: Retrieve all pets by either their name OR their age.
+     */
+    List<Pet> lab2(String name, int age);
+
+    /**
+     * TODO: Retrieve the AVERAGE age of all pets.
+     */
+    double lab3();
+
+    /**
+     * TODO: Delete all pets with a matching name, age, AND species.
+     */
+    void lab4();
