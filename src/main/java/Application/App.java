@@ -34,7 +34,8 @@ public class App {
         System.out.println(petRepository.lab1("Dog"));
         System.out.println("Next, let's retrieve all pets that are named Fido OR or 4 years old.");
         System.out.println(petRepository.lab2("Fido", 4));
-        System.out.println("Next, let's retrieve the average age of all pets.");
+        System.out.println("Next, let's retrieve the average age of all pets. (If you haven't written the query yet," +
+                "\n this will throw an exception.)");
         System.out.println(petRepository.lab3());
 
     }
